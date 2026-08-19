@@ -151,7 +151,7 @@ export default function Home() {
 
       {/* ── Footer ──────────────────────────── */}
       <footer className="footer">
-        Powered by RAG • ChromaDB • Brutalism
+        Copyright (c) 2026 Yuu. All rights reserved.
       </footer>
     </div>
   );
