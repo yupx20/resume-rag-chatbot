@@ -53,9 +53,8 @@ export default function Home() {
       <header className="header">
         <h1 className="header-title">Resume Chatbot</h1>
         <p className="header-subtitle">
-          // ask anything about my professional background
+          ask anything about my professional background
         </p>
-        <span className="header-badge">RAG-Powered</span>
       </header>
 
       {/* ── Chat Area ───────────────────────── */}
@@ -66,7 +65,7 @@ export default function Home() {
             <h2 className="welcome-title">Ask Me Anything</h2>
             <p className="welcome-text">
               I&apos;m an AI chatbot trained on my resume. Ask about skills,
-              experience, projects, or education &mdash; I&apos;ll find the
+              experience, projects, or education, I&apos;ll find the
               answer.
             </p>
             <div className="suggestions">
