@@ -93,7 +93,9 @@ export default function Home() {
               </span>
               <div className="message-bubble">
                 {msg.role === "assistant" ? (
-                  <ReactMarkdown>{msg.content}</ReactMarkdown>
+                  <ReactMarkdown>
+                    {msg.content.replace(/<think>[\s\S]*?<\/think>/g, "").trim()} { /* to remove thinking text from response */}
+                  </ReactMarkdown>
                 ) : (
                   msg.content
                 )}
